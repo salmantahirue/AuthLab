@@ -1,0 +1,14 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# JWT (JSON Web Tokens) - we use python-jose for creating/verifying tokens
+python-jose[cryptography]>=3.3.0
+
+# Password hashing - NEVER store plain text passwords!
+passlib[bcrypt]>=1.7.4
+
+# Pydantic for request/response validation (included with FastAPI)
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+email-validator>=2.0.0
